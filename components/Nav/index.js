@@ -10,22 +10,7 @@ export default function Nav () {
             <img src="/pano.png" style={{ width: '100%', height: '250px', objectFit: 'cover', objectPosition: 'left' }} />
             <nav className={styles.nav} style={{ backgroundColor: '#1e2117', color: 'white' }}>
                 <span className={styles.norse}>
-                    <a href="#">Home</a>
-                </span>
-                <span className={styles.norse}>
-                    <a href="#">Home</a>
-                </span>
-                <span className={styles.norse}>
-                    <a href="#">Home</a>
-                </span>
-                <span className={styles.norse}>
-                    <a href="#">Home</a>
-                </span>
-                <span className={styles.norse}>
-                    <a href="#">Home</a>
-                </span>
-                <span className={styles.norse}>
-                    <a href="#">Home</a>
+                    <a href="#">Coming Soon</a>
                 </span>
             </nav>
             <a href="#">
