@@ -5,14 +5,14 @@
 
 @font-face {
     font-family: Norse;
-    src: url(Norse-KaWI.otf);
+    src: url('/norse-font/Norse-KaWl.otf');
     font-style: normal;
     font-weight: 400;
 }
 
 @font-face {
     font-family: Norse;
-    src: url(NorseBold-2Kge.otf);
+    src: url('/norse-font/NorseBold-2Kge.otf');
     font-style: normal;
     font-weight: 700;
 }
