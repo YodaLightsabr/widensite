@@ -10,7 +10,13 @@ export default function Nav () {
             <img src="/pano2.jpg" style={{ width: '100%', height: '250px', objectFit: 'cover', objectPosition: 'left' }} />
             <nav className={styles.nav} style={{ backgroundColor: '#1e2117', color: 'white' }}>
                 <span className={styles.norse}>
-                    <a href="#">Coming Soon</a>
+                    <a href="#">Home</a>
+                </span>
+                <span className={styles.norse}>
+                    <a href="#">About</a>
+                </span>
+                <span className={styles.norse}>
+                    <a href="#">About</a>
                 </span>
             </nav>
             <a href="#">
@@ -22,10 +28,13 @@ export default function Nav () {
                             fontSize: '60px',
                             color: 'white'
                         }}>
-                        <strong style={{ fontWeight: '700' }}>Jesper Widén</strong>
+                            <strong className={styles.name} style={{ 
+                                fontWeight: '700',
+                                WebkitTextStrokeWidth: '1px',
+                                WebkitTextStrokeColor: '#182e46'
+                            }}>Jesper Widén</strong>
                         </h1>
                     </a>
-
         </div>
     )
 }
