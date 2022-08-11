@@ -7,7 +7,7 @@ export default function Nav () {
             wordSpacing: '0px',
             fontSize: '0px'
         }}>
-            <img src="/pano.png" style={{ width: '100%', height: '250px', objectFit: 'cover', objectPosition: 'left' }} />
+            <img src="/pano2.jpg" style={{ width: '100%', height: '250px', objectFit: 'cover', objectPosition: 'left' }} />
             <nav className={styles.nav} style={{ backgroundColor: '#1e2117', color: 'white' }}>
                 <span className={styles.norse}>
                     <a href="#">Coming Soon</a>
