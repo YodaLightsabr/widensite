@@ -36,7 +36,7 @@ export default function About ({ viewport }) {
                 boxSizing: 'border-box',
             }}>
                 <center style={{ boxSizing: 'border-box', width: '100%' }}>
-                    <img src="/headshot.jpg" style={{ boxSizing: 'border-box', float: 'right', width: '100%', maxWidth: '400px', textAlign: 'center', margin: '0px auto' }} />
+                    <img src="/headshot.jpg" style={{ boxSizing: 'border-box', float: 'right', width: '100%', maxWidth: '400px', textAlign: 'center', border: '2px solid #1e2117', margin: '0px auto' }} />
                 </center>
             </div>
         </div>
