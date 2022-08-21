@@ -4,9 +4,9 @@ Parts of the site can be edited simply by editing an MDX file, which is a lot ea
 
 
 ## Page directory
-| Page                                                                                  | URL                                  |
-| ------------------------------------------------------------------------------------- | ------------------------------------ |
-| **[✏️  About ](https://github.com/YodaLightsabr/widensite/blob/main/copy/About.mdx)**      | https://jesperwiden.com/about        |
+| Page                                                                                  | Live URL                                 |
+| ------------------------------------------------------------------------------------- | ---------------------------------------- |
+| **[✏️  About ](https://github.com/YodaLightsabr/widensite/blob/main/copy/About.mdx)**  | https://jesperwiden.com/about            |
 
 
 
