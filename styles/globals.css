@@ -26,3 +26,7 @@ a {
 nav span.active {
   background-color: #475033;
 }
+
+body {
+  background-color: #faecc5;
+}
