@@ -1,6 +1,13 @@
 import styles from './Nav.module.css'
+import { useEffect, useState } from 'react'
 
 export default function Nav () {
+    const [route, setRoute] = useState('/');
+
+    useEffect(() => {
+        setRoute(window.location.pathname);
+    }, []);
+
     return (
         <div style={{
             letterSpacing: '0px',
@@ -9,17 +16,17 @@ export default function Nav () {
         }}>
             <img src="/pano2.jpg" style={{ width: '100%', height: '250px', objectFit: 'cover', objectPosition: 'left' }} />
             <nav className={styles.nav} style={{ backgroundColor: '#1e2117', color: 'white' }}>
-                <span className={styles.norse}>
-                    <a href="#">Home</a>
+                <span className={styles.norse + ((route == '/' || route == '/home') && ' active' || '')}>
+                    <a href="/home">Home</a>
                 </span>
-                <span className={styles.norse}>
-                    <a href="#">About</a>
+                <span className={styles.norse + (route == '/about' && ' active' || '')}>
+                    <a href="/about">About</a>
                 </span>
-                <span className={styles.norse}>
-                    <a href="#">About</a>
+                <span className={styles.norse + (route == '/contact' && ' active' || '')}>
+                    <a href="/contact">Contact</a>
                 </span>
             </nav>
-            <a href="#">
+            <a href="/">
                         <h1 style={{
                             transform: 'translateY(-50%)',
                             position: 'absolute',

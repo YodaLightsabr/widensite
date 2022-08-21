@@ -23,3 +23,6 @@ a {
   box-sizing: border-box;
 }
 
+nav span.active {
+  background-color: #475033;
+}

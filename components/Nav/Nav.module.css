@@ -15,9 +15,6 @@
     align-items: center;
     transition: 0.2s all;
     cursor: pointer;
-}
-
-.nav span:first-child {
     font-size: 30px;
 }
 
