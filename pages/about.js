@@ -24,7 +24,7 @@ export default function About ({ viewport }) {
                     width: '100%',
                     background: 'white',
                     padding: '0.5rem',
-                    border: '1px solid #1e2117',
+                    border: '2px solid #1e2117',
                     borderStyle: 'dashed'
                 }}>
                     <center>
