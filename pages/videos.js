@@ -29,7 +29,7 @@ export default function About ({ viewport }) {
                     height: '100%'
                 }}>
                     <center>
-                        <JogationVideoCopy />
+                        <JogathonVideoCopy />
                     </center>
                 </div>
             </div>
