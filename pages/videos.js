@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import NormalLayout from '../components/NormalLayout'
-import VideosCopy from '../copy/Videos.mdx'
 import SwedishCommercialCopy from '../copy/SwedishCommercial.mdx'
 import JogationVideoCopy from '../copy/JogationVideo.mdx'
 
