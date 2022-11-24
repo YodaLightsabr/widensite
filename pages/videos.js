@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import NormalLayout from '../components/NormalLayout'
 import SwedishCommercialCopy from '../copy/SwedishCommercial.mdx'
-import JogationVideoCopy from '../copy/JogationVideo.mdx'
+import JogathonVideoCopy from '../copy/JogathonVideo.mdx'
 
 export default function About ({ viewport }) {
   console.log(viewport);
