@@ -115,6 +115,12 @@ function MyApp({ Component, pageProps }) {
     }
   }, []);
 
+  const [viewing, setViewing] = useState('a');
+
+  useEffect(() => {
+    if (window.location.href.includes('?b=true') || window.location.href.includes('&b=true')) setViewing('b');
+  }, []);
+
   return (
     <>
       <Head>
@@ -124,7 +130,7 @@ function MyApp({ Component, pageProps }) {
         <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
 
       </Head>
-      <Component {...pageProps} viewport={viewport} />
+      <Component {...pageProps} viewport={viewport} a={viewing == 'a'} b={viewing == 'b'} />
     </>
   );
 }

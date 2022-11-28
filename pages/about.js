@@ -2,8 +2,7 @@ import Head from 'next/head'
 import NormalLayout from '../components/NormalLayout'
 import AboutCopy from '../copy/About.mdx'
 
-export default function About ({ viewport }) {
-  console.log(viewport);
+export default function About ({ viewport, a, b }) {
   return (
     <NormalLayout viewport={viewport}>
         <div style={viewport.styler.initial({
@@ -43,6 +42,7 @@ export default function About ({ viewport }) {
         <center>
             <div style={{ maxWidth: '800px', width: '100%' }}>
                 <img src="/assets/hiking.jpg" style={{ boxSizing: 'border-box', border: '2px solid #1e2117', width: '100%' }} />
+                <p style={{ textAlign: 'left', marginTop: '-6px', fontSize: '18px' }}>"The <em>Trail</em> Goes Ever On..."</p>
             </div>
         </center>
     </NormalLayout>
