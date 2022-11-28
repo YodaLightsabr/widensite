@@ -3,6 +3,7 @@ import NormalLayout from '../components/NormalLayout'
 import HomeCopy from '../copy/Home.mdx'
 import AcknowledgementCopy from '../copy/Acknowledgement.mdx'
 import Footer from '../components/Footer'
+import WallOfFame from '../components/WallOfFame'
 
 export default function Home ({ viewport }) {
   console.log(viewport);
@@ -61,6 +62,9 @@ export default function Home ({ viewport }) {
               </div>
             </div> */}
       </center>
+      <WallOfFame>
+
+      </WallOfFame>
       <Footer style={{ fontSize: '18px' }}>
         <AcknowledgementCopy />
       </Footer>

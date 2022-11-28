@@ -2,7 +2,7 @@ import '../styles/globals.css'
 import Head from 'next/head'
 import { useState, useEffect } from 'react'
 
-class BreakpointChain {
+export class BreakpointChain {
   constructor (width) {
     this.styleData = {};
     this.width = width;
@@ -73,7 +73,7 @@ class BreakpointChain {
   }
 }
 
-const breakpoints = {
+export const breakpoints = {
   sm:	640,
   md:	768,
   lg:	1024,
@@ -81,7 +81,7 @@ const breakpoints = {
   '2xl': 1536
 }
 
-const findBreakpoint = (width) => {
+export const findBreakpoint = (width) => {
   let breakpoint = 'sm';
   Object.keys(breakpoints).forEach(key => {
     if (width >= breakpoints[key]) {
