@@ -42,7 +42,7 @@ export default function About ({ viewport, a, b }) {
         <center>
             <div style={{ maxWidth: '800px', width: '100%' }}>
                 <img src="/assets/hiking.jpg" style={{ boxSizing: 'border-box', border: '2px solid #1e2117', width: '100%' }} />
-                <p style={{ textAlign: 'left', marginTop: '-6px', fontSize: '18px' }}>"The <em>Trail</em> Goes Ever On..."</p>
+                <p style={{ marginTop: '-6px', fontSize: '20px' }}>"The <em>Trail</em> Goes Ever On..."</p>
             </div>
         </center>
     </NormalLayout>
