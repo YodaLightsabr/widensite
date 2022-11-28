@@ -36,10 +36,15 @@ export default function About ({ viewport }) {
                 boxSizing: 'border-box',
             }}>
                 <center style={{ boxSizing: 'border-box', width: '100%' }}>
-                    <img src="/headshot.jpg" style={{ boxSizing: 'border-box', float: 'right', width: '100%', maxWidth: '400px', textAlign: 'center', border: '2px solid #1e2117', margin: '0px auto' }} />
+                    <img src="/assets/headshot.jpg" style={{ boxSizing: 'border-box', float: 'right', width: '100%', maxWidth: '400px', textAlign: 'center', border: '2px solid #1e2117', margin: '0px auto' }} />
                 </center>
             </div>
         </div>
+        <center>
+            <div style={{ maxWidth: '800px', width: '100%' }}>
+                <img src="/assets/hiking.jpg" style={{ boxSizing: 'border-box', border: '2px solid #1e2117', width: '100%' }} />
+            </div>
+        </center>
     </NormalLayout>
   )
 }
