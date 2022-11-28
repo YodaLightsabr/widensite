@@ -29,7 +29,7 @@ export default function Item ({ image, children }) {
     return (
         <>
             <center>
-                <div style={{ width: '100%', maxWidth: '800px' }}>
+                <div style={{ width: '100%', maxWidth: '900px' }}>
                     <div style={viewport.styler.initial({
                         display: 'grid',
                         gridTemplateColumns: '1fr',
@@ -60,7 +60,7 @@ export default function Item ({ image, children }) {
                             boxSizing: 'border-box',
                         }}>
                             <center style={{ boxSizing: 'border-box', width: '100%' }}>
-                                <img src={`/assets/wall-of-fame/${image}`} style={{ boxSizing: 'border-box', float: 'right', width: '100%', maxWidth: '400px', textAlign: 'center', border: '2px solid #1e2117', margin: '0px auto' }} />
+                                <img src={`/assets/wall-of-fame/${image}`} style={{ boxSizing: 'border-box', float: 'right', width: '100%', maxWidth: '350px', textAlign: 'center', border: '2px solid #1e2117', margin: '0px auto' }} />
                             </center>
                         </div>
                     </div>
