@@ -9,6 +9,7 @@ Parts of the site can be edited simply by editing an MDX file, which is a lot ea
 | **[✏️  About ](https://github.com/YodaLightsabr/widensite/edit/main/copy/About.mdx)**  | https://jesperwiden.com/about            |
 | **[✏️  Jogathon Video ](https://github.com/YodaLightsabr/widensite/edit/main/copy/JogathonVideo.mdx)**  | https://jesperwiden.com/videos            |
 | **[✏️  Swedish Commercial ](https://github.com/YodaLightsabr/widensite/edit/main/copy/SwedishCommercial.mdx)**  | https://jesperwiden.com/videos            |
+| **[✏️  Footer ](https://github.com/YodaLightsabr/widensite/edit/main/copy/SwedishCommercial.mdx)**  | https://jesperwiden.com/videos            |
 
 
 

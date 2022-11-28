@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import NormalLayout from '../components/NormalLayout'
 import HomeCopy from '../copy/Home.mdx'
+import Footer from '../components/Footer'
 
 export default function Home ({ viewport }) {
   console.log(viewport);
@@ -59,6 +60,9 @@ export default function Home ({ viewport }) {
               </div>
             </div> */}
       </center>
+      <Footer>
+        <p>Represented by John Rudolph of Dystel, Goderich & Bourret LLC</p>
+      </Footer>
     </NormalLayout>
   )
 }
