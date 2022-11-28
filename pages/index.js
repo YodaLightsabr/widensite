@@ -61,8 +61,8 @@ export default function Home ({ viewport }) {
               </div>
             </div> */}
       </center>
-      <Footer>
-        <AcknowledgementCopy style={{ fontSize: '18px' }} />
+      <Footer style={{ fontSize: '18px' }}>
+        <AcknowledgementCopy />
       </Footer>
     </NormalLayout>
   )
