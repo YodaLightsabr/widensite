@@ -11,6 +11,7 @@ Parts of the site can be edited simply by editing an MDX file, which is a lot ea
 | **[✏️  Swedish Commercial ](https://github.com/YodaLightsabr/widensite/edit/main/copy/SwedishCommercial.mdx)**  | https://jesperwiden.com/videos            |
 | **[✏️  Acknowledgement ](https://github.com/YodaLightsabr/widensite/edit/main/copy/Acknowledgement.mdx)**  | https://jesperwiden.com/            |
 | **[✏️  Wall of Fame ](https://github.com/YodaLightsabr/widensite/edit/main/copy/WallOfFame.mdx)**  | https://jesperwiden.com/wall-of-fame            |
+| **[✏️  Contact ](https://github.com/YodaLightsabr/widensite/edit/main/copy/Contact.mdx)**  | https://jesperwiden.com/contact            |
 
 
 
