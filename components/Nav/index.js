@@ -28,6 +28,9 @@ export default function Nav () {
                 <span className={styles.norse + (route == '/videos' && ' active' || '')}>
                     <a href="/videos">Videos</a>
                 </span>
+                <span className={styles.norse + (route == '/wall-of-fame' && ' active' || '')}>
+                    <a href="/wall-of-fame">Wall of Fame</a>
+                </span>
                 <span className={styles.norse}>
                     <a href="http://widenhorizons.com" target="_blank">Widén Horizons</a>
                 </span>

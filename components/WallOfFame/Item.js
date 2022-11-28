@@ -28,40 +28,44 @@ export default function Item ({ image, children }) {
 
     return (
         <>
-            <div style={viewport.styler.initial({
-                display: 'grid',
-                gridTemplateColumns: '1fr',
-                boxSizing: 'border-box'
-            }).md({
-                display: 'grid',
-                gridTemplateColumns: '1fr min(100%, 400px)',
-                boxSizing: 'border-box'
-            }).styles}>
-                <div style={viewport.styler.initial({
-                    padding: '1rem 1rem 0px 1rem'
-                }).md({
-                    padding: '1rem 0px 1rem 1rem'
-                }).styles}>
-                    <div style={{
-                        width: '100%',
-                        background: 'white',
-                        padding: '0.5rem',
-                        border: '2px solid #1e2117'
-                    }}>
-                        <center>
-                            {children}
-                        </center>
+            <center>
+                <div style={{ width: '100%', maxWidth: '800px' }}>
+                    <div style={viewport.styler.initial({
+                        display: 'grid',
+                        gridTemplateColumns: '1fr',
+                        boxSizing: 'border-box'
+                    }).md({
+                        display: 'grid',
+                        gridTemplateColumns: '1fr min(100%, 400px)',
+                        boxSizing: 'border-box'
+                    }).styles}>
+                        <div style={viewport.styler.initial({
+                            padding: '1rem 1rem 0px 1rem'
+                        }).md({
+                            padding: '1rem 0px 1rem 1rem'
+                        }).styles}>
+                            <div style={{
+                                width: '100%',
+                                background: 'white',
+                                padding: '0.5rem',
+                                border: '2px solid #1e2117'
+                            }}>
+                                <center>
+                                    {children}
+                                </center>
+                            </div>
+                        </div>
+                        <div style={{
+                            margin: '1rem',
+                            boxSizing: 'border-box',
+                        }}>
+                            <center style={{ boxSizing: 'border-box', width: '100%' }}>
+                                <img src={`/assets/wall-of-fame/${image}`} style={{ boxSizing: 'border-box', float: 'right', width: '100%', maxWidth: '400px', textAlign: 'center', border: '2px solid #1e2117', margin: '0px auto' }} />
+                            </center>
+                        </div>
                     </div>
                 </div>
-                <div style={{
-                    margin: '1rem',
-                    boxSizing: 'border-box',
-                }}>
-                    <center style={{ boxSizing: 'border-box', width: '100%' }}>
-                        <img src={`/assets/hall-of-fame/${image}`} style={{ boxSizing: 'border-box', float: 'right', width: '100%', maxWidth: '400px', textAlign: 'center', border: '2px solid #1e2117', margin: '0px auto' }} />
-                    </center>
-                </div>
-            </div>
+            </center>
         </>
     );
 }

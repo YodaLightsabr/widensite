@@ -62,9 +62,6 @@ export default function Home ({ viewport }) {
               </div>
             </div> */}
       </center>
-      <WallOfFame>
-
-      </WallOfFame>
       <Footer style={{ fontSize: '18px' }}>
         <AcknowledgementCopy />
       </Footer>

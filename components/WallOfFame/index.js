@@ -4,7 +4,7 @@ export default function WallOfFame () {
     return (
         <div>
             <center>
-                <h1>Hall of Fame</h1>
+                <h1>Wall of Fame</h1>
             </center>
             <WallOfFameCopy />
         </div>
