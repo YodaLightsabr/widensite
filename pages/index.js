@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import NormalLayout from '../components/NormalLayout'
 import HomeCopy from '../copy/Home.mdx'
+import AcknowledgementCopy from '../copy/Acknowledgement.mdx'
 import Footer from '../components/Footer'
 
 export default function Home ({ viewport }) {
@@ -61,7 +62,7 @@ export default function Home ({ viewport }) {
             </div> */}
       </center>
       <Footer>
-        <p>Represented by John Rudolph of Dystel, Goderich & Bourret LLC</p>
+        <AcknowledgementCopy style={{ fontSize: '18px' }} />
       </Footer>
     </NormalLayout>
   )
