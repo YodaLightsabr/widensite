@@ -1,3 +1,5 @@
+import splitbee from '@splitbee/web'
+
 import '../styles/globals.css'
 import Head from 'next/head'
 import { useState, useEffect } from 'react'
@@ -118,6 +120,10 @@ function MyApp({ Component, pageProps }) {
   const [viewing, setViewing] = useState('a');
 
   useEffect(() => {
+    splitbee.init({
+      scriptUrl: "/bee.js",
+      apiUrl: "/_hive",
+    });
     if (window.location.href.includes('?b=true') || window.location.href.includes('&b=true')) setViewing('b');
   }, []);
 
