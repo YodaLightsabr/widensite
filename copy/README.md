@@ -7,7 +7,8 @@ Parts of the site can be edited simply by editing an MDX file, which is a lot ea
 | Page (click pencil to edit)                                                                                  | Live URL                                 |
 | ------------------------------------------------------------------------------------- | ---------------------------------------- |
 | **[✏️  About ](https://github.com/YodaLightsabr/widensite/edit/main/copy/About.mdx)**  | https://jesperwiden.com/about            |
-| **[✏️  Jogathon Video ](https://github.com/YodaLightsabr/widensite/edit/main/copy/JogathonVideo.mdx)**  | https://jesperwiden.com/videos            |
+| **[✏️  Light Sabers vs. Heavy Swords ](https://github.com/YodaLightsabr/widensite/edit/main/copy/LightSabers.mdx)**  | https://jesperwiden.com/videos            |
+| **[✏️  A Truly Classic T-Shirt Video ](https://github.com/YodaLightsabr/widensite/edit/main/copy/TrulyClassic.mdx)**  | https://jesperwiden.com/videos            |
 | **[✏️  Swedish Commercial ](https://github.com/YodaLightsabr/widensite/edit/main/copy/SwedishCommercial.mdx)**  | https://jesperwiden.com/videos            |
 | **[✏️  Acknowledgement ](https://github.com/YodaLightsabr/widensite/edit/main/copy/Acknowledgement.mdx)**  | https://jesperwiden.com/            |
 | **[✏️  Wall of Fame ](https://github.com/YodaLightsabr/widensite/edit/main/copy/WallOfFame.mdx)**  | https://jesperwiden.com/wall-of-fame            |
