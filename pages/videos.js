@@ -9,6 +9,9 @@ export default function About ({ viewport }) {
   console.log(viewport);
   return (
     <NormalLayout viewport={viewport}>
+        <Head>
+            <title>Jesper Widén's Videos</title>
+        </Head>
         <div style={viewport.styler.initial({
             display: 'grid',
             gridTemplateColumns: '1fr',

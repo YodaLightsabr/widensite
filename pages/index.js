@@ -9,6 +9,9 @@ export default function Home ({ viewport }) {
   console.log(viewport);
   return (
     <NormalLayout viewport={viewport}>
+      <Head>
+          <title>Jesper Widén</title>
+      </Head>
       <center>
         <div style={{
           display: 'grid',

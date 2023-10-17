@@ -5,6 +5,9 @@ import AboutCopy from '../copy/About.mdx'
 export default function About ({ viewport, a, b }) {
   return (
     <NormalLayout viewport={viewport}>
+        <Head>
+            <title>About Jesper Widén</title>
+        </Head>
         <div style={viewport.styler.initial({
             display: 'grid',
             gridTemplateColumns: '1fr',
