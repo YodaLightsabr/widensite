@@ -46,22 +46,22 @@ export default function Nav () {
                     <a href="http://widenhorizons.com" target="_blank">Widén Horizons</a>
                 </span>
             </nav>
-            <a href="/">
-                        <h1 style={{
-                            transform: 'translateY(-50%)',
-                            position: 'absolute',
-                            top: '20px',
-                            right: '30%',
-                            fontSize: '60px',
-                            color: 'white'
-                        }}>
-                            <strong className={styles.name} style={{ 
-                                fontWeight: '700',
-                                WebkitTextStrokeWidth: '1px',
-                                WebkitTextStrokeColor: '#182e46'
-                            }}>Jesper Widén</strong>
-                        </h1>
-                    </a>
+            <Link href="/">
+                <h1 style={{
+                    transform: 'translateY(-50%)',
+                    position: 'absolute',
+                    top: '20px',
+                    right: '30%',
+                    fontSize: '60px',
+                    color: 'white'
+                }}>
+                    <strong className={styles.name} style={{ 
+                        fontWeight: '700',
+                        WebkitTextStrokeWidth: '1px',
+                        WebkitTextStrokeColor: '#182e46'
+                    }}>Jesper Widén</strong>
+                </h1>
+            </Link>
         </div>
     )
 }
