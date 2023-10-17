@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './Nav.module.css'
 import { useEffect, useState } from 'react'
 
@@ -16,21 +17,31 @@ export default function Nav () {
         }}>
             <img src="/assets/pano2.jpg" style={{ width: '100%', height: '250px', objectFit: 'cover', objectPosition: 'left' }} />
             <nav className={styles.nav} style={{ backgroundColor: '#1e2117', color: 'white' }}>
-                <span className={styles.norse + ((route == '/' || route == '/home') && ' active' || '')}>
-                    <a href="/home">Home</a>
-                </span>
-                <span className={styles.norse + (route == '/about' && ' active' || '')}>
-                    <a href="/about">About</a>
-                </span>
-                <span className={styles.norse + (route == '/contact' && ' active' || '')}>
-                    <a href="/contact">Contact</a>
-                </span>
-                <span className={styles.norse + (route == '/videos' && ' active' || '')}>
-                    <a href="/videos">Videos</a>
-                </span>
-                <span className={styles.norse + (route == '/wall-of-fame' && ' active' || '')}>
-                    <a href="/wall-of-fame">Wall of Fame</a>
-                </span>
+                <Link href="/home">
+                    <span className={styles.norse + ((route == '/' || route == '/home') && ' active' || '')}>
+                        Home
+                    </span>
+                </Link>
+                <Link href="/about">
+                    <span className={styles.norse + (route == '/about' && ' active' || '')}>
+                        About
+                    </span>
+                </Link>
+                <Link href="/contact">
+                    <span className={styles.norse + (route == '/contact' && ' active' || '')}>
+                        Contact
+                    </span>
+                </Link>
+                <Link href="/videos">
+                    <span className={styles.norse + (route == '/videos' && ' active' || '')}>
+                        Videos
+                    </span>
+                </Link>
+                <Link href="/wall-of-fame">
+                    <span className={styles.norse + (route == '/wall-of-fame' && ' active' || '')}>
+                        Wall of Fame
+                    </span>
+                </Link>
                 <span className={styles.norse}>
                     <a href="http://widenhorizons.com" target="_blank">Widén Horizons</a>
                 </span>

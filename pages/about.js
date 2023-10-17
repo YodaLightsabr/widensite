@@ -47,6 +47,12 @@ export default function About ({ viewport, a, b }) {
                     transform: 'translateX(-2px)'
                 }}>Trail</em> Goes Ever On..."</p>
             </div>
+            </center>
+            <center>
+            <div style={{ maxWidth: '800px', width: '100%' }}>
+                <img src="/assets/hiking2.png" style={{ boxSizing: 'border-box', border: '2px solid #1e2117', width: '100%' }} />
+                <p style={{ marginTop: '-6px', fontSize: '20px' }}>"And On..."</p>
+            </div>
         </center>
     </NormalLayout>
   )
