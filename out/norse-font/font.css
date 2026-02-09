@@ -1,0 +1,18 @@
+/*
+ * Norse Font by Joel Carrouche
+ * https://www.fontspace.com/norse-font-f21080
+ */
+
+@font-face {
+    font-family: Norse;
+    src: url('/norse-font/Norse-KaWl.otf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Norse;
+    src: url('/norse-font/NorseBold-2Kge.otf');
+    font-style: normal;
+    font-weight: 700;
+}
