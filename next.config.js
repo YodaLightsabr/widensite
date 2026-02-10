@@ -11,6 +11,7 @@ const withMDX = require('@next/mdx')({
 
 const nextConfig = {
   reactStrictMode: true,
+  turbopack: {},
   swcMinify: true,
   output: 'export',
   async rewrites () {
